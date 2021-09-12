@@ -1,0 +1,29 @@
+
+#blog h3,h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display:flex;
+    justify-content: center; 
+    flex-wrap: wrap; /*se pone para que los elementos que no quepan en la página se vayan bajando*/
+}
+
+#blog .container{
+    display:flex;
+    justify-content: center; 
+    flex-wrap: wrap; /*se pone para que los elementos que no quepan en la página se vayan bajando*/
+}
+
+#blog article{
+    margin:15px;
+}
+
+
+#blog img{ /*le damos medidas a las imagenes de nuestro blog*/
+    width: 100%;
+    max-width: 350px;
+    margin-top: 7px;/*establecemos pixeles del margen*/
+    border: 3px solid #713695; /*establecemos color del borde de nuestro botón*/
+       
+}

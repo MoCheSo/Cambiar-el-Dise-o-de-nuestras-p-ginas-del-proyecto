@@ -1,0 +1,78 @@
+body{
+    background-image: url(../img/burbuja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*para que cuando esté en el celular la imagen de las burbujas del login se vea bien y se ajuste, si no se lo psuiera al estar en celular la imagen se haria pequeñita.*/
+}
+
+.formulario {
+    background: rgba(185, 21, 70, 0.226); /*color del fondo del formulario que es como un rosa transparente*/
+    padding: 20px;
+    border-radius: 50px; /*borde de la caja del formulario*/
+    box-shadow: 0 0 50px rgba(255, 95, 169, 0.644); /*color de sombra de la orilla del formulario*/
+    color: rgb(245, 28, 147);
+}
+
+.form-control {
+    background: rgba(0, 0, 0, .3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.ingresar {
+    background: #e00043;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(255, 3, 58, 0.61); /*sombra que se le hace al botón ingresar*/
+    transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+    color: white;
+}
+
+.olvide {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.olvide:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.olvide1 {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    /* border: 2px solid white; */
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 7, 69, 0.5); /*color del botón registrarse*/
+}
+
+.olvide1:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}

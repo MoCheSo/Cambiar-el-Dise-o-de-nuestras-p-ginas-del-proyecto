@@ -1,0 +1,55 @@
+#menu-bar{
+    display: none;
+}
+
+header label{
+    float: right; /*Menu flotando a la derecha.*/
+    font-size: 28px;
+    margin: 6px 0;
+}
+
+.menu{
+    position: absolute;
+    top:50px;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 190, 209, 0.9); /*Estableciendo color de fondo cuando se abre el menu*/
+    transition: all 0.5s;
+    transform: translateX(-100%); /*trasladamos el menu para que se corra ala derecha*/
+}
+
+.menu a{
+    display: block;
+    color:#000; /*color de las letras del menu*/
+    height:50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.8); /* color del borde de cada titulo del menu*/
+}
+
+.menu a:hover{ /*un Hover para que cuando pase el mouse se vea blanquito con trasparente*/
+background:rgba(255,255,255,0.8); /*color que queremos que se ponga al pasar el mouse por cada etiqueta del menu*/
+}
+
+#menu-bar:checked ~ .menu{ /*seleccionamos menu-bar y cuando tenga la pseudoclase checked se va activar el menu.*/
+transform: translateX(0%);
+}
+
+@media (min-width:1024px){
+    .menu{
+        position:static; /*para que la imagen principal de burbujas rosas quede estatica*/
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+.menu a{
+        border: none;
+    }
+ header label{
+     display: none;
+ }
+}
