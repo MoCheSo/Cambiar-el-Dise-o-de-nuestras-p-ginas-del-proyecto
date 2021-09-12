@@ -2,12 +2,12 @@
 Utilizando alguna herramienta de diseño CSS
 
 
-UNIVERSIDAD AUTÓNOMA DE CAMPECHE
-Ingeniería en Sistemas computacionales
+UNIVERSIDAD AUTÓNOMA DE CAMPECHE<br>
+Ingeniería en Sistemas computacionales<br>
 
-Materia: Programación de Aplicaciones Web
-Docente: Edgar D Caamal Dzulu
-Alumna: Monica A Cherrez Solis
+Materia: Programación de Aplicaciones Web<br>
+Docente: Edgar D Caamal Dzulu<br>
+Alumna: Monica A Cherrez Solis<br>
 
 Semestre:7mo  Grupo: B
 
